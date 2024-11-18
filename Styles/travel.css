@@ -1,0 +1,139 @@
+.bi-compass-fill{
+    color: rgba(26, 26, 224, 0.664);
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+.brand-title{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.search-bar{
+    display: inline-block;
+    padding-top: 15px;
+    background-color: rgba(128, 128, 128, 0.247);
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav span{
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(190, 185, 185);
+    margin-right: 20px;
+}
+.bi-chevron-down{
+    font-size:15px ;
+    font-weight: bold;
+    font-family: Arial;
+}
+.btn-primary{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial;
+    padding: 7px;
+    width: 160px;
+    word-spacing: 3px;
+}
+main{
+    background-image: url("../../Public/images/Holiday.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    height: 600px;
+    padding: 50px;
+}
+.main-subtitle{
+    color: hsl(327, 78%, 48%);
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px black ;
+
+  
+}
+.main-title{
+    color: rgba(255, 255, 255, 0.904);
+    font-family: Arial;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black ;
+
+}
+.location-search{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+    font-size: 18px;
+    color: gray;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 80%;
+}
+.btn-search{
+    background-color: rgb(4, 141, 246);
+    color:white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.bi-crosshair{
+    padding-left: 50px;
+}
+.bi-justify{
+    display: none;
+}
+@media screen and (orientation:portrait){
+    nav{
+        display: none;
+
+    }
+    .search-bar{
+        display: none;
+
+    }
+    #btn-listing{
+        display: none;
+    }
+    main{
+        text-align:center;
+    }
+    .main-title{
+        font-size: 34px;
+    }
+    .main-subtitle{
+        font-size: 15px;
+    }
+    .location-search{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 15px;
+        padding: 20px;
+    }
+    .btn-split{
+        display: none;
+
+    }
+    .location{
+        border-bottom: 1px solid rgb(192, 190, 190);
+        padding-bottom: 5px;
+    }
+    .searching{
+        border-bottom: 1px solid rgb(192, 190, 190);
+        padding-bottom: 5px; 
+    }
+    
+    .bi-justify{
+        display: flex;
+        font-size: 23px;
+        
+    }
+}
